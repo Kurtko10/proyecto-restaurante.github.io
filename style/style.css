@@ -79,6 +79,7 @@ a{
     text-align: center;
 }
 footer{
+    max-height: 10%;
     padding-left: 2%;
     padding-right: 2%;
     border-top: 5px inset rgb(87, 87, 87); 
@@ -176,6 +177,26 @@ footer{
   @media (max-width: 768px) {
     .menu-img {
         display: none;
+    }
+       .redes-sociales {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;/* Agrega un margen superior para separar del footer */
+    }
+    #copyR{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin: 10px;
+    }
+    .redes-sociales img {
+        width: 15px; 
+        margin-left: 2px;
+        margin-right: 2px;
     }
 }
 .card {
