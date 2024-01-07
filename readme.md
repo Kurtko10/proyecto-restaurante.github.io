@@ -13,6 +13,8 @@ El proyecto utiliza HTML, CSS y Bootstrap para construir un sitio web interactiv
 - **style/:** Carpeta que incluye la hoja de estilo personalizada para mejorar el diseño y la presentación del contenido.
 - **img/:** Carpeta que contiene imágenes utilizadas en el sitio web.
 - **README.md:** Este archivo que proporciona información sobre el proyecto.
+- [Repositorio](https://github.com/Kurtko10/proyecto-restaurante)
+- [Página del Proyecto](https://kurtko10.github.io/proyecto-restaurante.github.io/index.html)
 
 ## Lenguajes y Frameworks Utilizados
 
