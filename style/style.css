@@ -1,0 +1,198 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+    border-top: 5px outset black;
+    border-bottom: 5px outset black;
+}
+body::before {
+    content: "";
+    position: absolute;
+    min-height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/wood-150384_1920.png);
+    background-size: contain;
+    background-repeat: repeat  ;
+    opacity: 0.7; 
+    z-index: -1;
+}
+
+.navbar {
+    border-bottom: 5px inset rgb(87, 87, 87); 
+    background: linear-gradient(to right, rgba(139, 124, 98, 0.802), rgba(162, 159, 159, 0.819)); 
+    
+}
+.nombreEmpresa{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:red;
+    text-shadow: 2px 2px 2px green;
+    padding-top: 5px;
+}
+#menuNav {
+    margin-left: auto;
+}
+.navbar-toggler{
+    margin-left: auto;
+}
+li{
+    padding-left: 2px;
+}
+a{
+    text-decoration: none;
+}
+.enlaces-navbar {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden; 
+    font-size: 1em;
+}
+.enlaces-navbar:hover,.enlaces-navbar:hover {
+    border-color: #ff1900; 
+    color: #ff1900;
+    transition: background-color 2s; 
+}
+.nav-item.enlaces-navbar.active a{
+    color: #fb7869;
+    
+}
+.enlaces-navbar::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: #ff1900; 
+    transition: left 1s, right 1s; 
+}
+.enlaces-navbar:hover::before {
+    left: 0;
+    right: 0;
+}
+#nombreLogo{
+    text-align: center;
+}
+footer{
+    padding-left: 2%;
+    padding-right: 2%;
+    border-top: 5px inset rgb(87, 87, 87); 
+    background: linear-gradient(to right, rgb(139, 124, 98), rgb(162, 159, 159)); 
+}
+.texto{
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.carta h1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    
+}
+.texto h1{
+    border-bottom: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+.telefono {
+    margin-bottom: 10px; 
+}
+.redes-sociales a {
+    display:inline;  
+}
+.redes-sociales{
+    padding-left: 5%;
+}
+.redes-sociales img {
+    width: 30px; 
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.container{
+    min-height: 100vh;
+    background-color: rgba(245, 245, 245, 0.615); 
+}
+.contenido{
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.imagen-carrusel{
+    border-radius: 15%;
+    opacity: 0.9;
+    border: 5px rgb(87, 87, 87) outset;
+    overflow: hidden;
+} 
+.footer-custom-bg .reservas-contacto-ubicacion,
+.footer-custom-bg .legal {
+    display: block; 
+}
+/* Media query para pantallas más pequeñas*/
+@media (max-width: 767px) {
+    .footer-custom-bg .reservas-contacto-ubicacion,
+    .footer-custom-bg .legal {
+        display: none; 
+    }
+}
+@media (max-width: 768px) {
+    #nombreLogo h6 {
+        display: none;
+    }
+}
+.telefonoRes{
+    display: none;
+    padding-left: 5%;
+}
+@media (max-width: 990px) {
+    .telefonoRes {
+        display:flex;
+    }
+    .telefono{
+        display: none;
+    }
+}
+  .menu-img {
+    width: 100%;
+    max-width: 200px; 
+    max-height: 120px; 
+    object-fit: cover; 
+    margin-bottom: 10px; 
+  }
+  @media (max-width: 768px) {
+    .menu-img {
+        display: none;
+    }
+}
+.card {
+    max-width: 300px; 
+    margin: 5px auto;
+    border: #fb7869 3px outset;
+    opacity: 0.7;
+}
+.card img {
+    max-width: 100%;  
+    max-height: 200px;     
+}
+.card:hover{
+opacity: 1;
+transition: 1s;
+border-color: #ff1900;
+}
+.formulario{
+    border: #ff1900 2px outset;
+}
